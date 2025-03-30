@@ -71,9 +71,8 @@ p{
 
 
 .desing-picture{
-    width:min(95% , 100%);
+    width: 45rem;
     border-radius:2rem ;
-
 }
 
 .ajustar-elementos{
@@ -86,7 +85,13 @@ p{
 
 @media(max-width: 540px){
     .contenedor{
-        width: min(90% , 100%);;
+        width: min(90% , 100%);
+        
+    }
+
+    .desing-picture{
+        width: min(99%, 100%);
+       
     }
 }
 
