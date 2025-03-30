@@ -1,0 +1,99 @@
+/*****************ESTILOS CODIGO QR*******************/
+
+
+/*******CUSTOMS PROPERTIES*******/
+
+:root{
+    --blanco:hsl(0, 0%, 100%);
+    --blanco-semiazul: hsl(212, 45%, 89%);
+    --azul-semigris:hsl(216, 15%, 48%);
+    --azul-oscuro:hsl(218, 44%, 22%);
+}
+
+/*******************************/
+
+
+/**AJUSTE DE LA MEDIDA REM Y BOX ZISING**/
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Outfit" , serif ;
+    background-color: var(--blanco-semiazul);
+   
+}
+
+/****************************************/
+
+
+
+/************GLOBALIDADES***************/
+
+
+#parrafo-principal{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1;
+    color: var(--azul-oscuro);
+    font-weight: bold;
+    margin:3rem 0 0 0;
+}
+
+p{
+    font-size:2rem;
+    text-align: center;
+    line-height:1.5;
+    color: var(--azul-semigris);
+}
+
+/***************************************/
+
+
+
+/********ESTILOS DEL DIV CONTENEDOR*******/
+
+
+
+.contenedor{
+    width:50rem;
+    margin: 50% auto;
+    background-color: var(--blanco);
+    border-radius: 2rem;  
+    
+}
+
+
+.desing-picture{
+    width:min(95% , 100%);
+    border-radius:2rem ;
+
+}
+
+.ajustar-elementos{
+    padding: 2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media(max-width: 540px){
+    .contenedor{
+        width: min(90% , 100%);;
+    }
+}
+
+
+
+
+/*****************************************/
+
+/*****************************************************************************************/
+
