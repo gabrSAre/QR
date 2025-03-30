@@ -2,12 +2,16 @@
 
 <img src="/images/Captura de pantalla 2025-03-30 142355.png">
 
-## PROCESO
+### ENLACES
+- URL DEL REPOSITORIO EN GIT HUB <https://github.com/gabrSAre/QR.git>
+- URL DEL REPOSITORIO EN VIVO <https://gabrsare.github.io/QR/>
+
+## MI PROCESO
 
 >### HERRAMIENTAS UTILIZADAS
 >
 > - HTML 5
-> - ***PROPIEDADES DE HTML***
+> - **PROPIEDADES DE HTML**
 >
 >   - Normalice *Para ajustar la página weg en distintos dispositivos*
       ***<link href="CSS/normalice.css" rel="stylesheet">***
@@ -33,6 +37,12 @@
   - Se utilizan medidas de width: min(a% , b% ), para ajustar los elementos a medida que cambia el ancho de los elementos.
   - Se implementan media queries para hacer el diseño sea responsivo.
   - **_Se utilizan snippets(fragmentos), para programar digitar rápidamente las mediaqueries con las siglas mq.
+
+  ### LO QUE APRENDÍ
+  - En este pequeño proyecto, aprendí que el ancho de los objetos se adaptan mejor implementando el ancho con valores minimos, para ajustarlo en diferentes resoluciones.
+
+  <img src="/images/Captura de pantalla 2025-03-30 155407.png">
+
 
 
   
